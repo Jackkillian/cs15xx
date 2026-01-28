@@ -1,3 +1,4 @@
+# Lecture 1
 ## Computational Review
 1. Understand the intricacies of the problem: input, expected output, and any constraints
 2. Develop an algorithm and write a solution using C++
@@ -10,6 +11,8 @@
 
 **Programming** is the process of **creating a set of instructions** that tell a computer how to perform a certain task
 
+
+# Lecture 2
 ## What is an algorithm?
 An algorithm is a clear, concise, and correct step-by-step sequence of actions used to solve a problem or set of problems
  Similar to a recipe in cooking or an instruction manual
@@ -24,13 +27,25 @@ An algorithm is a clear, concise, and correct step-by-step sequence of actions u
     - i.e., a complete instruction on how to do taxes should work for Tom as well as for Tracy.
 
 ### The Life Cycle of an Algorithm
-Problem Definition:
-Understand and define the problem.  
-Algorithm Development:
-Design the step-by-step procedure.  
-Testing:
-Check the algorithm with various inputs.  
-Analysis:
-Ensure its efficiency and scalability.  
-Optimization:
-Refine the algorithm for better performance.
+**Problem Definition**: Understand and define the problem.  
+**Algorithm Development**: Design the step-by-step procedure.  
+**Testing**: Check the algorithm with various inputs.  
+**Analysis**: Ensure its efficiency and scalability.  
+**Optimization**: Refine the algorithm for better performance.
+
+
+# Lecture 3
+## Best Practices Quiz
+What is a potential downside of using `std::endl` frequently?
+> C. It flushes the output buffer, which may reduce performance
+
+Why is using `namespace std;` generally discouraged in large or professional C++ projects?
+> C. It may cause name collisions and reduce code clarity
+
+One MUST use tabs, instead of spaces, for indentation. 
+> False
+
+A programmer should comment their code to explain "WHY" something is done, not "WHAT" is done. 
+> True
+
+## 
