@@ -48,4 +48,19 @@ One MUST use tabs, instead of spaces, for indentation.
 A programmer should comment their code to explain "WHY" something is done, not "WHAT" is done. 
 > True
 
-## 
+# Lecture 4
+## Variable Types
+### float
+- 4 bytes
+- 6 significant figures
+
+### double
+- 8 bytes
+- 15 significant figures
+
+### long double
+- 19 significant figures
+- 8-16 bytes depending on the platform
+
+### string
+I guess instead of doing `char variable[] = "string"`; you can do `#include <string>`
