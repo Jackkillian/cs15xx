@@ -64,3 +64,41 @@ A programmer should comment their code to explain "WHY" something is done, not "
 
 ### string
 I guess instead of doing `char variable[] = "string"`; you can do `#include <string>`
+
+
+# Lecture 5
+## More Types
+C,B,C,  
+### string
+- memory allocation is dynamic, not fixed
+
+### boolean
+- one byte
+- whenever you assign an integer value that is not 0 will be 1 (true
+ 
+## Constants
+```cpp
+const int magicNumber = 42;
+// this will error:
+magicNumber = 7;
+
+// this will also error: (constants must be initialized)
+const int UNINIT;
+```
+
+NOTE: It's convention to store constants as screaming snake case:  
+```cpp
+const int MAGIC_NUMBER = 42;
+```
+
+## Type Conversion
+```cpp
+int value = 74;
+char converted = static_cast<char>(value);
+cout << "New val: '" << converted << "'" << endl; // New val: 'J'
+
+// overflows int type
+float value2 = 8230581501512;
+cout << "New val: '" << static_cast<int>(value2) << "'"
+      << endl; // New val: '2147483647'
+```
